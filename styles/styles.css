@@ -1,15 +1,21 @@
-
-.bodyclass{
-    background-color: #f0f5ff;
+.bodyclass {
+    background-color: #f9f9ff;
 }
 
 .button-class {
-    background-color: #4E47FF;
-    width: 132px;
-    height: 48px;
-    border-radius: 10px;
     padding: 10px;
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+
 }
+.button-class:hover{
+    background-color: rgb(143, 143, 220);
+}
+
 
 .a {
     text-decoration: none;
@@ -47,6 +53,22 @@ nav ul li {
     list-style: none;
 }
 
+header section nav h3{
+    color:rgba(78, 71, 255, 1);
+}
+.first-button{
+    padding: 10px;
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.first-button:hover{
+    background-color:rgb(118, 160, 217);
+}
+
 
 /* Banner Style */
 
@@ -64,6 +86,14 @@ nav ul li {
 }
 
 /* Body para and image  */
+
+.raleway-text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px;
+  color:rgba(37, 36, 50, 0.5);
+}
 .body-section {
     display: flex;
     align-items: center;
@@ -71,12 +101,15 @@ nav ul li {
     margin-left: 141px;
     margin-right: 159px;
     margin-top: 100px;
+    gap:200px;
 }
 
 .see-in-action {
+    font-family: "Raleway", sans-serif;
     color: #252432;
     font-weight: bold;
     font-size: 42px;
+    color: rgba(37, 36, 50, 1);
 }
 
 .body-image {
@@ -98,13 +131,28 @@ nav ul li {
 }
 
 .body-Joined-para {
+    font-family: "Raleway",sans-serif;
+    color:rgba(37, 36, 50, 1);
     text-align: center;
+    font-size: 38px;
+    font-weight: bold;
 }
 
-.numbers {
+.numbers{
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.sndsection div h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color:rgba(78, 71, 255, 1);
+    margin:0;
+    gap:40px;
 }
 
 /* Third Section part */
@@ -128,30 +176,34 @@ nav ul li {
     gap: 50px;
 }
 
-.thirdh1{
+.thirdh1 {
     font-size: 3em;
     color: #000;
     margin-left: 0;
 
 }
-.thirdform{
+
+.thirdform {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.labelclass{
+
+.labelclass {
     font-weight: bold;
 }
-.inputclass{
+
+.inputclass {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
 
 }
-.thirdbutton{
+
+.thirdbutton {
     padding: 10px;
-    background-color: #1e40af;
+    background-color: rgba(78, 71, 255, 1);
     color: white;
     border: none;
     border-radius: 5px;
@@ -160,7 +212,47 @@ nav ul li {
 
 }
 
-.thirdbutton:hover{
-    background-color: #1e3a8a;
+.thirdbutton:hover {
+    background-color: rgba(78, 71, 255, 1);
 
+}
+
+/* Footer Section */
+.footer-class {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.footer-h1{
+    font-size: 5em;
+    color: rgba(78, 71, 255, 1);
+    margin: 20px;
+    font-weight: 800;
+}
+.footer-para{
+    font-size: 1.2em;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0;
+}
+
+.footer-nav {
+    margin-top: 30px;
+}
+
+footer nav a {
+    color: #6b7280;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+.footer-nav a:hover{
+    color: rgb(74, 68, 247);
 }

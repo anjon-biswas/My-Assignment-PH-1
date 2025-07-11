@@ -5,82 +5,167 @@
     margin-right: 140px;
     margin-left: 160px;}
  */
+.bodyclass{
+    background-color: #f0f5ff;
+}
 
-
-.button-class{
+.button-class {
     background-color: #4E47FF;
     width: 132px;
-    height:48px;
+    height: 48px;
     border-radius: 10px;
     padding: 10px;
 }
 
-.a{
+.a {
     text-decoration: none;
-    color:White;
+    color: White;
 }
 
 
 /* Header Style-Image */
-.header-class{
+.header-class {
     background-image: url('../assets/Assets/Hero-bg.png');
     height: 698px;
 }
 
 /* navbar styles */
-nav{
+nav {
     margin-left: 150px;
     margin-right: 150px;
     display: flex;
     justify-content: space-between;
 }
+
 .inter-navbar-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.navbar-font{
+
+.navbar-font {
     font-size: 34px;
     font-weight: 800;
     max-width: 1440px;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 }
 
 
 /* Banner Style */
 
-.banner{
+.banner {
     text-align: center;
     margin-left: 267px;
     margin-right: 267px;
     margin-bottom: 152px;
 }
 
-.developer-site{
+.developer-site {
     font-weight: 800;
     font-size: 65px;
     text-align: center;
 }
 
 /* Body para and image  */
-.body-section{
+.body-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 141px ;
-    margin-right:159px ;
-    margin-top:100px ;
+    margin-left: 141px;
+    margin-right: 159px;
+    margin-top: 100px;
 }
 
-.see-in-action{
-    color:#252432;
+.see-in-action {
+    color: #252432;
     font-weight: bold;
     font-size: 42px;
 }
-.body-image{
+
+.body-image {
     border-radius: 35px;
 }
-    
+
+/* This is the second body part */
+.sndsection {
+    margin-top: 116px;
+    margin-left: 141px;
+    margin-right: 159px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 20px;
+}
+
+.body-snd-para {
+    display: flex;
+    justify-content: center;
+}
+
+.body-Joined-para {
+    text-align: center;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Third Section part */
+.thirdsection {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+    margin-left: 141px;
+    margin-right: 159px;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.thirdh1{
+    font-size: 3em;
+    color: #000;
+    margin-left: 0;
+
+}
+.thirdform{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.labelclass{
+    font-weight: bold;
+}
+.inputclass{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+
+}
+.thirdbutton{
+    padding: 10px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+
+.thirdbutton:hover{
+    background-color: #1e3a8a;
+
+}

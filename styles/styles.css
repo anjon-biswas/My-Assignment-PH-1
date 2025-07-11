@@ -1,10 +1,4 @@
-/* Shared styles */
 
-/* .body-class{
-    max-width: 1440px; 
-    margin-right: 140px;
-    margin-left: 160px;}
- */
 .bodyclass{
     background-color: #f0f5ff;
 }
@@ -125,6 +119,7 @@ nav ul li {
     margin-right: 159px;
     border-radius: 20px;
 }
+
 .container {
     display: flex;
     align-items: center;

@@ -13,7 +13,7 @@
 
 }
 .button-class:hover{
-    background-color: rgb(143, 143, 220);
+    background-color: rgb(3, 3, 255);
 }
 
 
@@ -66,7 +66,7 @@ header section nav h3{
     cursor: pointer;
 }
 .first-button:hover{
-    background-color:rgb(118, 160, 217);
+    background-color:rgb(8, 50, 109);
 }
 
 
@@ -80,7 +80,8 @@ header section nav h3{
 }
 
 .developer-site {
-    font-weight: 800;
+    font-family:"Raleway" sans-serif ;
+    font-weight: bold;
     font-size: 65px;
     text-align: center;
 }
@@ -117,69 +118,78 @@ header section nav h3{
 }
 
 /* This is the second body part */
-.sndsection {
-    margin-top: 116px;
-    margin-left: 141px;
-    margin-right: 159px;
-    background-color: rgba(78, 71, 255, 0.1);
-    border-radius: 20px;
+.stats-container {
+  background-color: #f0f2ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #333;
+  margin-top:90px;
+  margin-left: 141px;
+  margin-right: 159px;
 }
 
-.body-snd-para {
-    display: flex;
-    justify-content: center;
-}
-
-.body-Joined-para {
-    font-family: "Raleway",sans-serif;
-    color:rgba(37, 36, 50, 1);
-    text-align: center;
+.stats-container h2 {
+    font-family: "Raleway"sans-serif;
+    font-weight: bold;
     font-size: 38px;
-    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.numbers{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.stats {
+  display: flex;
+  justify-content: space-around;
 }
 
-.sndsection div h2{
-    display: flex;
-    justify-content: center;
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-    font-size: 80px;
-    color:rgba(78, 71, 255, 1);
-    margin:0;
-    gap:40px;
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  font-family: "Inter" sans-serif;
+  font-size:80px;
+  color: rgba(78, 71, 255, 1);
+  font-weight: bold;
+}
+
+.label {
+  font-family: "Inter" sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* Third Section part */
 .thirdsection {
     font-family: Arial, sans-serif;
     background-color: #f0f5ff;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     align-items: center;
     margin-top: 116px;
     margin-left: 141px;
     margin-right: 159px;
     border-radius: 20px;
+    padding:5px 0 5px 0;
 }
 
 .container {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    gap: 50px;
+    margin-right: 60px;
+    margin-left: 40px;
+    gap: 175px;
 }
 
 .thirdh1 {
-    font-size: 3em;
+    font-size: 85px;
+    font-weight: bold;
     color: #000;
-    margin-left: 0;
+    margin-left: 50px;
 
 }
 
@@ -187,6 +197,7 @@ header section nav h3{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-right: 80px;
 }
 
 .labelclass {
@@ -213,20 +224,19 @@ header section nav h3{
 }
 
 .thirdbutton:hover {
-    background-color: rgba(78, 71, 255, 1);
+    background-color: rgb(5, 3, 67);
 
 }
 
 /* Footer Section */
 .footer-class {
     font-family: Arial, sans-serif;
-    background-color: #f9f9ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -255,4 +265,78 @@ footer nav a {
 }
 .footer-nav a:hover{
     color: rgb(74, 68, 247);
+}
+
+/* Middle part */
+.testimonials-container {
+  background-color: #f0f2ff;
+  margin-top:100px;
+  margin-left:141px;
+  margin-right:159px;
+  margin-bottom: 70px;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.testimonials-container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 25%;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  display: block;
+}
+
+.date {
+  color: #666;
+  font-size: 0.8em;
 }
